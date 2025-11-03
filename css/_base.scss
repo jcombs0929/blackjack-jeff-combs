@@ -10,13 +10,14 @@
 body {
   background-color: #fcfcfc;
   height: 100vh;
+  line-height: 1.4;
 }
 
 main {
   display: flex;
   justify-content: space-between;
   max-height: 1330px;
-  padding: 2rem;
+  margin: 2rem;
 }
 
 footer {
@@ -37,4 +38,8 @@ h2 {
   color: mix.$gray;
   font-weight: 600;
   font-size: 1.375rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
