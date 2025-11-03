@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+.ui-container {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+}/*# sourceMappingURL=styles.css.map */
