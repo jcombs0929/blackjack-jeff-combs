@@ -20,7 +20,7 @@
       </div>
     </header>
     <main>
-      <div class="ui-container">
+      <section class="ui-container">
         <h1>BLACKJACK</h1>
         <div class="betting-container">
           <h2>Place Your Bet</h2>
@@ -68,54 +68,57 @@
             Split</a
           >
         </div>
-      </div>
-      <div class="betting-pool-container">
-        <div class="bp-inner-container">
-          <div class="top">
-            <small>BETTING POOL</small>
-            <div class="current-bet"><sup>$</sup>50</div>
-          </div>
-          <div class="bottom"><sup>$</sup>0</div>
+      </section>
+      <section class="betting-pool-container">
+        <div class="betting-pool">
+          <!-- <hr /> -->
+          <small>BETTING POOL</small>
+          <div class="currency"><sup>$</sup>50</div>
+          <div class="break"></div>
+          <div class="currency"><sup>$</sup>0</div>
           <small>SPLIT / INS.</small>
+          <!-- <hr /> -->
         </div>
-      </div>
-      <div class="card-container">
-        <div class="hand">
-          <div class="name">DEALER</div>
-          <div class="card-group card-group__dealer">
-            <div class="card">
-              <div class="num">3</div>
-              <div class="suit">
-                <img src="./assets/spades.svg" alt="spades" />
+      </section>
+      <section class="card-container">
+        <div class="cards">
+          <div class="hand">
+            <div class="name">DEALER</div>
+            <div class="card-group card-group__dealer">
+              <div class="card">
+                <div class="num">3</div>
+                <div class="suit">
+                  <img src="./assets/spades.svg" alt="spades" />
+                </div>
               </div>
-            </div>
-            <div class="card card__pattern">
-              <!-- <div class="card-pattern"></div> -->
-            </div>
-          </div>
-        </div>
-        <div class="hand">
-          <div class="card-group card-group__player">
-            <div class="card">
-              <div class="num">K</div>
-              <div class="suit">
-                <img src="./assets/clubs.svg" alt="clubs" />
-              </div>
-            </div>
-            <div class="card">
-              <div class="num">9</div>
-              <div class="suit">
-                <img
-                  src="./assets/diamonds.svg"
-                  alt="diamonds"
-                  fill="#3C83F6" />
+              <div class="card card__pattern">
+                <!-- <div class="card-pattern"></div> -->
               </div>
             </div>
           </div>
-          <div class="name">YOU</div>
+          <div class="hand">
+            <div class="card-group card-group__player">
+              <div class="card">
+                <div class="num">K</div>
+                <div class="suit">
+                  <img src="./assets/clubs.svg" alt="clubs" />
+                </div>
+              </div>
+              <div class="card">
+                <div class="num">9</div>
+                <div class="suit">
+                  <img
+                    src="./assets/diamonds.svg"
+                    alt="diamonds"
+                    fill="#3C83F6" />
+                </div>
+              </div>
+            </div>
+            <div class="name">YOU</div>
+          </div>
         </div>
-      </div>
-      <div class="game-info__container">
+      </section>
+      <section class="game-info__container">
         <div class="game-info__card">
           <div class="game-info__block">
             <div class="square-icon">
@@ -136,10 +139,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
-    <footer>
+    <!-- <footer>
       <p>Design by Jeff Combs</p>
-    </footer>
+    </footer> -->
   </body>
 </html>

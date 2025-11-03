@@ -100,10 +100,7 @@
     text-align: center;
     width: 100%;
     color: mix.$black;
-    small {
-      font-weight: 600;
-      font-size: 12px;
-    }
+
     &__num {
       font-size: 2rem;
       font-weight: 600;
@@ -119,11 +116,79 @@
   margin-top: 1.5rem;
 }
 
+/* --------------- START BETTING POOL STYLING --------------- */
+.betting-pool-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //   background-color: pink;
+  flex: 1;
+  width: max-content;
+}
+
+.betting-pool {
+  text-align: center;
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    top: -5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: mix.$lightGray;
+  }
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: mix.$lightGray;
+  }
+
+  .break {
+    height: 1px;
+    width: 150%;
+    background-color: mix.$lightGray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .currency {
+    font-size: 2.75rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+    position: relative;
+  }
+}
+/* --------------- END BETTING POOL STYLING --------------- */
+
 /* --------------- START CARD STYLING --------------- */
 .card-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  //   background-color: aquamarine;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  width: min-content;
+  height: 100%;
 }
 
 .hand {
@@ -134,39 +199,6 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 4em;
-
-  //   &:first-child {
-  //     &::after {
-  //       content: "3";
-  //       text-align: center;
-  //       position: absolute;
-  //       width: 3.25em;
-  //       height: 3.25em;
-  //       border: 1px solid mix.$blue100;
-  //       border-radius: 50%;
-  //       bottom: -124px;
-  //       right: 22px;
-  //       font-size: 1.375rem;
-  //       font-weight: 700;
-  //       color: mix.$blue100;
-  //     }
-  //   }
-  //   &:last-child {
-  //     &::before {
-  //       content: "19";
-  //       text-align: center;
-  //       position: absolute;
-  //       width: 3.25em;
-  //       height: 3.25em;
-  //       border: 1px solid mix.$blue100;
-  //       border-radius: 50%;
-  //       top: -100px;
-  //       left: 22px;
-  //       font-size: 1.375rem;
-  //       font-weight: 700;
-  //       color: mix.$blue100;
-  //     }
-  //   }
 }
 
 .name {
@@ -272,35 +304,7 @@
     height: 88px;
     fill: mix.$blue100;
   }
-
-  //   .card-count {
-  //     &::after {
-  //       content: "";
-  //       display: block;
-  //       width: 100%;
-  //       height: 0;
-  //       padding-bottom: 100%;
-  //       background: mix.$blue10;
-  //       border-radius: 50%;
-  //       border: 1px solid mix.$blue100;
-  //     }
-  //     div {
-  //       float: left;
-  //       width: 100%;
-  //       padding-top: 50%;
-  //       line-height: 1em;
-  //       margin-top: -1.7em;
-  //       text-align: center;
-  //       color: mix.$blue100;
-
-  //       p {
-  //         text-align: center;
-  //         font-size: 1.2em;
-  //       }
-  //     }
-  //   }
 }
-
 /* --------------- END CARD STYLING --------------- */
 
 /* --------------- START GAME INFO STYLING --------------- */

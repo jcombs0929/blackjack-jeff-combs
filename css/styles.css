@@ -7,15 +7,14 @@
 
 body {
   background-color: #fcfcfc;
-  height: 100vh;
   line-height: 1.4;
 }
 
 main {
   display: flex;
   justify-content: space-between;
-  max-height: 1330px;
   margin: 2rem;
+  max-width: 1920px;
 }
 
 footer {
@@ -40,6 +39,20 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+small {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+hr {
+  height: 1px;
+  background-color: rgb(227, 232, 237);
+}
+
+sup {
+  font-size: 60%;
 }
 
 .ui-container {
@@ -137,10 +150,6 @@ h3 {
   width: 100%;
   color: rgb(33, 38, 44);
 }
-.balance-bet-container .amount small {
-  font-weight: 600;
-  font-size: 12px;
-}
 .balance-bet-container .amount__num {
   font-size: 2rem;
   font-weight: 600;
@@ -154,11 +163,76 @@ h3 {
   margin-top: 1.5rem;
 }
 
+/* --------------- START BETTING POOL STYLING --------------- */
+.betting-pool-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.betting-pool {
+  text-align: center;
+  position: relative;
+}
+.betting-pool:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: -5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(227, 232, 237);
+}
+.betting-pool:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: -5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(227, 232, 237);
+}
+.betting-pool .break {
+  height: 1px;
+  width: 150%;
+  background-color: rgb(227, 232, 237);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.betting-pool .currency {
+  font-size: 2.75rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+/* --------------- END BETTING POOL STYLING --------------- */
 /* --------------- START CARD STYLING --------------- */
 .card-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  width: -moz-min-content;
+  width: min-content;
+  height: 100%;
 }
 
 .hand {
