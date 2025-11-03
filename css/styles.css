@@ -11,10 +11,165 @@ body {
 
 main {
   display: flex;
+  justify-content: space-between;
+  min-height: 800px;
+  max-height: 1330px;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(33, 38, 44);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(129, 140, 152);
+  font-weight: 600;
+  font-size: 1.375rem;
 }
 
 .ui-container {
-  padding: 40px;
+  padding: 40px 2rem;
   background-color: #fff;
   border-radius: 12px;
+  width: 450px;
+  border: 1px solid rgb(227, 232, 237);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+  text-decoration: none;
+  display: flex;
+  font-size: 1rem;
+  padding: 12px 1.5rem;
+  margin: 12px 0;
+  font-weight: 500;
+}
+.btn__primary {
+  background-color: rgb(60, 131, 246);
+  color: #fff;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  padding: 12px 1.5rem;
+}
+.btn__primary--deal {
+  font-size: 1.5rem;
+  padding: 1.125rem 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.btn__secondary {
+  border: 1px solid rgb(60, 131, 246);
+  color: rgb(60, 131, 246);
+}
+
+.disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+/* --------------- START BETTING CONTAINER STYLING --------------- */
+.betting-container {
+  margin-top: 2rem;
+}
+
+.chip-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.chip {
+  border: 1px solid rgb(227, 232, 237);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+}
+
+.btn-group {
+  display: flex;
+}
+.btn-group .btn {
+  flex: 1;
+  justify-content: center;
+}
+.btn-group .btn:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.btn-group .btn:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+/* --------------- END BETTING CONTAINER STYLING --------------- */
+/* --------------- START BALANCE CONTAINER STYLING --------------- */
+.balance-bet-container {
+  display: flex;
+  background-color: rgba(60, 131, 246, 0.05);
+  border: 1px solid rgb(227, 232, 237);
+  border-radius: 4px;
+  padding: 18px 10px;
+}
+.balance-bet-container .amount {
+  text-align: center;
+  width: 100%;
+  color: rgb(33, 38, 44);
+}
+.balance-bet-container .amount small {
+  font-weight: 600;
+  font-size: 12px;
+}
+.balance-bet-container .amount__num {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.balance-bet-container .amount:last-child {
+  border-left: 1px solid rgba(60, 131, 246, 0.2);
+}
+
+/* --------------- END BALANCE CONTAINER STYLING --------------- */
+.make-a-play-container {
+  margin-top: 1.5rem;
+}
+
+.card-group {
+  display: flex;
+}
+
+.card {
+  width: 174px;
+  height: 258px;
+  border-radius: 1rem;
+  border: 1px solid rgb(227, 232, 237);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1rem 0 1.5rem;
+  font-size: 88px;
+  background-color: #fcfcfc;
+}
+.card__top {
+  z-index: 999;
+  transform: translateY(-50px) translateX(-40px);
+}
+.card .num {
+  font-weight: 600;
+  color: rgb(33, 38, 44);
+}
+.card .suit img {
+  height: 88px;
+  fill: rgb(60, 131, 246);
 }/*# sourceMappingURL=styles.css.map */

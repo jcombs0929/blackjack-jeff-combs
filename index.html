@@ -22,7 +22,7 @@
     <main>
       <div class="ui-container">
         <h1>BLACKJACK</h1>
-        <div class="bet-container">
+        <div class="betting-container">
           <h2>Place Your Bet</h2>
           <div class="chip-container">
             <div class="chip">1</div>
@@ -33,35 +33,37 @@
             <div class="chip">200</div>
           </div>
           <div class="btn-group">
-            <a href="" class="btn btn-secondary">ALL IN</a>
-            <a href="" class="btn btn-secondary">Reset</a>
+            <a href="" class="btn btn__secondary">ALL IN</a>
+            <a href="" class="btn btn__secondary">Reset</a>
           </div>
-          <div class="player-balance-bet">
-            <div class="player-balance">
+          <div class="balance-bet-container">
+            <div class="amount">
               <small>BALANCE</small>
-              <div class="balance"><sup>$</sup>3,150</div>
+              <div class="amount__num"><sup>$</sup>3,150</div>
             </div>
-            <div class="player-bet">
+            <div class="amount">
               <small>YOUR BET</small>
-              <div class="bet"><sup>$</sup>50</div>
+              <div class="amount__num"><sup>$</sup>50</div>
             </div>
           </div>
-          <a href="" class="btn btn-lg deal">Deal</a>
+          <a href="" class="btn btn__primary btn__primary--deal disabled"
+            >Deal</a
+          >
         </div>
         <div class="make-a-play-container">
-          <a href="" class="btn btn-primary"
+          <a href="" class="btn btn__primary"
             ><div class="icon"></div>
             Hit</a
           >
-          <a href="" class="btn btn-primary"
+          <a href="" class="btn btn__primary"
             ><div class="icon"></div>
             Stand</a
           >
-          <a href="" class="btn btn-primary disabled"
+          <a href="" class="btn btn__primary disabled"
             ><div class="icon"></div>
             Double Down</a
           >
-          <a href="" class="btn btn-primary disabled"
+          <a href="" class="btn btn__primary disabled"
             ><div class="icon"></div>
             Split</a
           >
@@ -83,7 +85,9 @@
           <div class="card-group">
             <div class="card card__bottom">
               <div class="num">3</div>
-              <div class="suit"></div>
+              <div class="suit">
+                <img src="./assets/spades.svg" alt="spades" />
+              </div>
             </div>
             <div class="card card__top card--front">
               <div class="card-pattern"></div>
@@ -96,11 +100,18 @@
           <div class="card-group">
             <div class="card card__bottom">
               <div class="num">K</div>
-              <div class="suit"></div>
+              <div class="suit">
+                <img src="./assets/clubs.svg" alt="clubs" />
+              </div>
             </div>
             <div class="card card__top">
               <div class="num">9</div>
-              <div class="suit"></div>
+              <div class="suit">
+                <img
+                  src="./assets/diamonds.svg"
+                  alt="diamonds"
+                  fill="#3C83F6" />
+              </div>
             </div>
           </div>
           <div class="user">YOU</div>

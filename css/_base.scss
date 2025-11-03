@@ -1,0 +1,34 @@
+@use "mixins" as mix;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  min-height: 800px;
+  max-height: 1330px;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  text-align: center;
+  color: mix.$black;
+}
+
+h2 {
+  text-align: center;
+  color: mix.$gray;
+  font-weight: 600;
+  font-size: 1.375rem;
+}
