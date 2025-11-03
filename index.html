@@ -3,12 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,19 +13,120 @@
     <title>BLACKJACK by Jeff Combs</title>
   </head>
   <body>
+    <header>
+      <div class="header-btn-group">
+        <div class="hints-toggle"></div>
+        <div class="dark-light-mode"></div>
+      </div>
+    </header>
     <main>
       <div class="ui-container">
         <h1>BLACKJACK</h1>
-        <h2>Place Your Bet</h2>
-        <div class="chip-container">
-          <div class="chip">1</div>
-          <div class="chip">10</div>
-          <div class="chip">25</div>
-          <div class="chip">50</div>
-          <div class="chip">100</div>
-          <div class="chip">200</div>
+        <div class="bet-container">
+          <h2>Place Your Bet</h2>
+          <div class="chip-container">
+            <div class="chip">1</div>
+            <div class="chip">10</div>
+            <div class="chip">25</div>
+            <div class="chip">50</div>
+            <div class="chip">100</div>
+            <div class="chip">200</div>
+          </div>
+          <div class="btn-group">
+            <a href="" class="btn btn-secondary">ALL IN</a>
+            <a href="" class="btn btn-secondary">Reset</a>
+          </div>
+          <div class="player-balance-bet">
+            <div class="player-balance">
+              <small>BALANCE</small>
+              <div class="balance"><sup>$</sup>3,150</div>
+            </div>
+            <div class="player-bet">
+              <small>YOUR BET</small>
+              <div class="bet"><sup>$</sup>50</div>
+            </div>
+          </div>
+          <a href="" class="btn btn-lg deal">Deal</a>
+        </div>
+        <div class="make-a-play-container">
+          <a href="" class="btn btn-primary"
+            ><div class="icon"></div>
+            Hit</a
+          >
+          <a href="" class="btn btn-primary"
+            ><div class="icon"></div>
+            Stand</a
+          >
+          <a href="" class="btn btn-primary disabled"
+            ><div class="icon"></div>
+            Double Down</a
+          >
+          <a href="" class="btn btn-primary disabled"
+            ><div class="icon"></div>
+            Split</a
+          >
+        </div>
+      </div>
+      <div class="betting-pool-container">
+        <div class="bp-inner-container">
+          <div class="top">
+            <small>BETTING POOL</small>
+            <div class="current-bet"><sup>$</sup>50</div>
+          </div>
+          <div class="bottom"><sup>$</sup>0</div>
+          <small>SPLIT / INS.</small>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="dealer">
+          <div class="user">DEALER</div>
+          <div class="card-group">
+            <div class="card card__bottom">
+              <div class="num">3</div>
+              <div class="suit"></div>
+            </div>
+            <div class="card card__top card--front">
+              <div class="card-pattern"></div>
+            </div>
+          </div>
+          <div class="card-count"><div class="card-count__dealer">3</div></div>
+        </div>
+        <div class="player">
+          <div class="card-count"><div class="card-count__dealer">19</div></div>
+          <div class="card-group">
+            <div class="card card__bottom">
+              <div class="num">K</div>
+              <div class="suit"></div>
+            </div>
+            <div class="card card__top">
+              <div class="num">9</div>
+              <div class="suit"></div>
+            </div>
+          </div>
+          <div class="user">YOU</div>
+        </div>
+      </div>
+      <div class="game-info__container">
+        <div class="game-info__card">
+          <div class="game-info__block">
+            <div class="square-icon"></div>
+            <div class="game-info__content">
+              <h3>Blackjack Pays 3 to 2</h3>
+              <p>Dealer Hits on Soft 17</p>
+            </div>
+          </div>
+          <hr />
+          <div class="game-info__block">
+            <div class="square-icon"></div>
+            <div class="game-info__content">
+              <h3>Insurance Pays 2 to 1</h3>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <footer>
+      <p>Design by Jeff Combs</p>
+    </footer>
   </body>
 </html>
