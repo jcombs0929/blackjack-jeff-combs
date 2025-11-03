@@ -172,4 +172,42 @@ h2 {
 .card .suit img {
   height: 88px;
   fill: rgb(60, 131, 246);
+}
+
+/* --------------- START GAME INFO STYLING --------------- */
+.game-info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game-info__card {
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid rgb(227, 232, 237);
+  border-radius: 6px;
+}
+.game-info__card hr {
+  margin: 14px 0;
+}
+.game-info__block {
+  display: flex;
+}
+.game-info__content {
+  padding: 0 14px;
+}
+.game-info__content p {
+  color: rgb(227, 232, 237);
+}
+
+.square-icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgba(60, 131, 146, 0.102);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+}
+.square-icon img {
+  width: 16px;
+  height: auto;
 }/*# sourceMappingURL=styles.css.map */
