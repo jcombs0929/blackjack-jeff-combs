@@ -4,7 +4,7 @@
 
 ## Process
 
-Before beginning on any design work, I needed to understand the game at basic level. So, I read through the guide on Bicycle and then created a workflow to help me understand it at a high level. Though it wasn't completely necessary for styling, knowledge of the game would guide my designed decisions.
+Before beginning on any design work, I needed to understand the game at a basic level. So, I read through the guide on Bicycle and then created a user flow to help me understand it at a high level. Though it wasn't completely necessary for styling, knowledge of the game would guide my designed decisions.
 
 ### Steps
 
