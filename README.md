@@ -36,7 +36,7 @@ For this exercise and for simplicity-sake, I built the mockup with HTML/SCSS for
 
 ## User Flow
 
-!(./assets/Blackjack-Flow-Chart.jpg)
+!(![Player flow chart for each hand.](https://blackjack-jeff-combs.netlify.app/assets/Blackjack-flow-chart.jpg))
 
 ## Wireframes
 
