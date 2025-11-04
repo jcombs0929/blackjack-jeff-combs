@@ -1,6 +1,6 @@
 # Blackjack - Design by Jeff Combs
 
-**This is a styled, non-functional UI for the game of Blackjack with a focus on Desktop screens.**
+**This is a styled, non-functional UI for the game of Blackjack with a focus on <ins>Desktop screens</ins>.** [View my soultion](https://blackjack-jeff-combs.netlify.app/)
 
 ## Process
 
@@ -33,3 +33,11 @@ For this exercise and for simplicity-sake, I built the mockup with HTML/SCSS for
 - Adding a dark mode would be a nice feature.
 - Adding interactions would delight users.
 - With more time, a mobile version could be explored.
+
+## User Flow
+
+!(./assets/Blackjack-Flow-Chart.jpg)
+
+## Wireframes
+
+## Mockups

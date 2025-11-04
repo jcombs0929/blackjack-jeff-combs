@@ -20,6 +20,7 @@ main {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1540px;
+  position: relative;
 }
 
 footer {
@@ -325,8 +326,8 @@ sup {
 }
 
 .card {
-  width: 9.875rem;
-  height: 15.125rem;
+  width: 8.875rem;
+  height: 14.125rem;
   border-radius: 1rem;
   border: 1px solid rgb(227, 232, 237);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -337,6 +338,7 @@ sup {
   font-size: 5.5rem;
   background-color: #fcfcfc;
   position: relative;
+  padding-bottom: 1.25rem;
 }
 .card__pattern::after {
   content: "";
@@ -352,8 +354,8 @@ sup {
   font-weight: 600;
   color: rgb(33, 38, 44);
 }
-.card .suit img {
-  height: 5.5rem;
+.card img {
+  height: 5rem;
   fill: rgb(60, 131, 246);
 }
 
@@ -400,4 +402,12 @@ sup {
   width: auto;
 }
 
-/* --------------- END GAME INFO STYLING --------------- *//*# sourceMappingURL=styles.css.map */
+/* --------------- END GAME INFO STYLING --------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(60, 131, 246);
+}/*# sourceMappingURL=styles.css.map */

@@ -298,8 +298,8 @@
 }
 
 .card {
-  width: 9.875rem;
-  height: 15.125rem;
+  width: 8.875rem;
+  height: 14.125rem;
   border-radius: 1rem;
   border: 1px solid mix.$lightGray;
   box-shadow: mix.$boxShadow02;
@@ -310,6 +310,7 @@
   font-size: 5.5rem;
   background-color: #fcfcfc;
   position: relative;
+  padding-bottom: 1.25rem;
 
   &__pattern::after {
     content: "";
@@ -327,8 +328,8 @@
     color: mix.$black;
   }
 
-  .suit img {
-    height: 5.5rem;
+  img {
+    height: 5rem;
     fill: mix.$blue100;
   }
 }
@@ -385,3 +386,12 @@
   }
 }
 /* --------------- END GAME INFO STYLING --------------- */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: mix.$blue100;
+}
