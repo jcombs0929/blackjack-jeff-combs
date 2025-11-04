@@ -4,14 +4,14 @@
 
 ## Process
 
-Before beginning on any design work, I needed to understand the game at a basic level. So, I read through the guide on Bicycle and then created a user flow to help me understand it at a high level. Though it wasn't completely necessary for styling, knowledge of the game would guide my designed decisions.
+Before beginning on any design work, I needed to understand the game at a basic level. So, I read through the guide on Bicycle and then created a user flow to help me understand it at a high level. Though it wasn't completely necessary for styling, knowledge of the game would guide my design decisions.
 
 ### Steps
 
 1. Designed user flow to understand varies plays and outcomes.
-2. Create wireframes of different layout options.
-3. Design mockups based on chosen wireframe.
-4. Build with HTML/SCSS
+2. Created wireframes of different layout options.
+3. Designed mockups based on chosen wireframe.
+4. Built with HTML/SCSS
 
 ## Design Decisions
 
