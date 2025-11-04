@@ -36,8 +36,20 @@ For this exercise and for simplicity-sake, I built the mockup with HTML/SCSS for
 
 ## User Flow
 
-!(![Player flow chart for each hand.](https://blackjack-jeff-combs.netlify.app/assets/Blackjack-flow-chart.jpg))
+![Player flow chart for each hand.](https://blackjack-jeff-combs.netlify.app/assets/Blackjack-flow-chart.jpg)
 
 ## Wireframes
 
+![Wireframe 01](https://blackjack-jeff-combs.netlify.app/assets/wireframe-01.jpg)
+
+![Wireframe 02](https://blackjack-jeff-combs.netlify.app/assets/wireframe-02.jpg)
+
 ## Mockups
+
+**Chosen Design**
+
+![Chosen Design](https://blackjack-jeff-combs.netlify.app/assets/light-mode-blue.jpg)
+
+![Dark Mode - Purple and Teal](https://blackjack-jeff-combs.netlify.app/assets/dark-mode-purple-teal.jpg)
+
+![Light Mode Purple](https://blackjack-jeff-combs.netlify.app/assets/light-mode-purple.jpg)
