@@ -1,6 +1,6 @@
 # Blackjack - Design by Jeff Combs
 
-**This is a styled, non-functional UI for the game of Blackjack with a focus on <ins>Desktop screens</ins>.** [View my soultion](https://blackjack-jeff-combs.netlify.app/)
+**This is a styled, non-functional UI for the game of Blackjack with a focus on <ins>Desktop screens</ins>.** [View my solution](https://blackjack-jeff-combs.netlify.app/)
 
 ## Process
 
