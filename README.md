@@ -8,10 +8,10 @@ Before beginning on any design work, I needed to understand the game at a basic 
 
 ### Steps
 
-1. Designed user flow to understand varies plays and outcomes.
+1. Designed user flow to understand various plays and outcomes.
 2. Created wireframes of different layout options.
 3. Designed mockups based on chosen wireframe.
-4. Built with HTML/SCSS
+4. Built with HTML/SCSS/CSS
 
 ## Design Decisions
 
